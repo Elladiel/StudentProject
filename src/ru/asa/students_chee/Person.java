@@ -54,7 +54,7 @@ public class Person {
     private String inputSurname() {
         do {
             try {
-                System.out.println("Введите фамилию(используйте только русские или латинские буквы):");
+                System.out.println("Введите фамилию(используйте только кириллицу):");
                 surname = Console.readString();
                 PersonValidator.validateSurname(surname);
                 return surname;
